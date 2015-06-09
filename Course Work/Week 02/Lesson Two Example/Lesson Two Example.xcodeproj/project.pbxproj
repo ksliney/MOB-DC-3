@@ -13,6 +13,7 @@
 		25D182B11B26620F00F5B6AF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25D182B01B26620F00F5B6AF /* Images.xcassets */; };
 		25D182B41B26620F00F5B6AF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25D182B21B26620F00F5B6AF /* LaunchScreen.xib */; };
 		25D182C01B26620F00F5B6AF /* Lesson_Two_ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D182BF1B26620F00F5B6AF /* Lesson_Two_ExampleTests.swift */; };
+		25D182CA1B2667B500F5B6AF /* Broad City.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 25D182C91B2667B500F5B6AF /* Broad City.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		25D182B91B26620F00F5B6AF /* Lesson Two ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lesson Two ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		25D182BE1B26620F00F5B6AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		25D182BF1B26620F00F5B6AF /* Lesson_Two_ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson_Two_ExampleTests.swift; sourceTree = "<group>"; };
+		25D182C91B2667B500F5B6AF /* Broad City.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Broad City.jpg"; path = "../../../../../../../Desktop/Broad City.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				25D182A91B26620F00F5B6AF /* AppDelegate.swift */,
 				25D182AB1B26620F00F5B6AF /* ViewController.swift */,
 				25D182AD1B26620F00F5B6AF /* Main.storyboard */,
+				25D182C91B2667B500F5B6AF /* Broad City.jpg */,
 				25D182B01B26620F00F5B6AF /* Images.xcassets */,
 				25D182B21B26620F00F5B6AF /* LaunchScreen.xib */,
 				25D182A71B26620F00F5B6AF /* Supporting Files */,
@@ -194,6 +197,7 @@
 			files = (
 				25D182AF1B26620F00F5B6AF /* Main.storyboard in Resources */,
 				25D182B41B26620F00F5B6AF /* LaunchScreen.xib in Resources */,
+				25D182CA1B2667B500F5B6AF /* Broad City.jpg in Resources */,
 				25D182B11B26620F00F5B6AF /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
