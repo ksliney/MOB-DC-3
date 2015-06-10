@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "25D182D31B266CDC00F5B6AF"
-               BuildableName = "AboutKate.app"
-               BlueprintName = "AboutKate"
-               ReferencedContainer = "container:AboutKate.xcodeproj">
+               BlueprintIdentifier = "25D182A31B26620F00F5B6AF"
+               BuildableName = "Lesson Two Example.app"
+               BlueprintName = "Lesson Two Example"
+               ReferencedContainer = "container:Lesson Two Example.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -28,10 +28,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "25D182E81B266CDC00F5B6AF"
-               BuildableName = "AboutKateTests.xctest"
-               BlueprintName = "AboutKateTests"
-               ReferencedContainer = "container:AboutKate.xcodeproj">
+               BlueprintIdentifier = "25D182B81B26620F00F5B6AF"
+               BuildableName = "Lesson Two ExampleTests.xctest"
+               BlueprintName = "Lesson Two ExampleTests"
+               ReferencedContainer = "container:Lesson Two Example.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,20 +46,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "25D182E81B266CDC00F5B6AF"
-               BuildableName = "AboutKateTests.xctest"
-               BlueprintName = "AboutKateTests"
-               ReferencedContainer = "container:AboutKate.xcodeproj">
+               BlueprintIdentifier = "25D182B81B26620F00F5B6AF"
+               BuildableName = "Lesson Two ExampleTests.xctest"
+               BlueprintName = "Lesson Two ExampleTests"
+               ReferencedContainer = "container:Lesson Two Example.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "25D182D31B266CDC00F5B6AF"
-            BuildableName = "AboutKate.app"
-            BlueprintName = "AboutKate"
-            ReferencedContainer = "container:AboutKate.xcodeproj">
+            BlueprintIdentifier = "25D182A31B26620F00F5B6AF"
+            BuildableName = "Lesson Two Example.app"
+            BlueprintName = "Lesson Two Example"
+            ReferencedContainer = "container:Lesson Two Example.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -76,10 +76,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "25D182D31B266CDC00F5B6AF"
-            BuildableName = "AboutKate.app"
-            BlueprintName = "AboutKate"
-            ReferencedContainer = "container:AboutKate.xcodeproj">
+            BlueprintIdentifier = "25D182A31B26620F00F5B6AF"
+            BuildableName = "Lesson Two Example.app"
+            BlueprintName = "Lesson Two Example"
+            ReferencedContainer = "container:Lesson Two Example.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,10 +95,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "25D182D31B266CDC00F5B6AF"
-            BuildableName = "AboutKate.app"
-            BlueprintName = "AboutKate"
-            ReferencedContainer = "container:AboutKate.xcodeproj">
+            BlueprintIdentifier = "25D182A31B26620F00F5B6AF"
+            BuildableName = "Lesson Two Example.app"
+            BlueprintName = "Lesson Two Example"
+            ReferencedContainer = "container:Lesson Two Example.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
