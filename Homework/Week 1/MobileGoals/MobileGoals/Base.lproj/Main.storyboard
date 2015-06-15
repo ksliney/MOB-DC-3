@@ -26,6 +26,7 @@
                         <viewControllerLayoutGuide type="bottom" id="v0f-zK-4gT"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="1uB-SZ-83g">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9Ih-rX-kv1">
@@ -108,6 +109,7 @@
                         <viewControllerLayoutGuide type="bottom" id="U7M-G7-gw4"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8eF-Uk-EGa">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SOK-kj-0lw">
@@ -147,6 +149,7 @@
                         <viewControllerLayoutGuide type="bottom" id="LEI-5i-aSk"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="cMc-eI-odW">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="I'm hoping to build a MVP for an app designed for graduate students. " translatesAutoresizingMaskIntoConstraints="NO" id="gn0-MU-i7D">
