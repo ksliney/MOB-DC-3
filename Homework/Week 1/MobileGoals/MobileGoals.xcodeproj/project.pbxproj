@@ -13,6 +13,11 @@
 		251553501B2CD65D0088FD04 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2515534F1B2CD65D0088FD04 /* Images.xcassets */; };
 		251553531B2CD65D0088FD04 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 251553511B2CD65D0088FD04 /* LaunchScreen.xib */; };
 		2515535F1B2CD65D0088FD04 /* MobileGoalsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515535E1B2CD65D0088FD04 /* MobileGoalsTests.swift */; };
+		257EB3E61B32114500BEC237 /* Lessons in Resources */ = {isa = PBXBuildFile; fileRef = 257EB3E51B32114500BEC237 /* Lessons */; };
+		259969F21B320F5200D49040 /* facebookPaper.png in Resources */ = {isa = PBXBuildFile; fileRef = 259969F11B320F5200D49040 /* facebookPaper.png */; };
+		259969F41B320F5800D49040 /* Grass-Jelly-Milk-Tea.png in Resources */ = {isa = PBXBuildFile; fileRef = 259969F31B320F5800D49040 /* Grass-Jelly-Milk-Tea.png */; };
+		25A9356C1B3201B4002D13B1 /* Kate.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 25A9356B1B3201B4002D13B1 /* Kate.jpg */; };
+		25B485031B3210EB00E90CBF /* mobileGoals.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25B485021B3210EB00E90CBF /* mobileGoals.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,11 @@
 		251553581B2CD65D0088FD04 /* MobileGoalsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobileGoalsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2515535D1B2CD65D0088FD04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2515535E1B2CD65D0088FD04 /* MobileGoalsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileGoalsTests.swift; sourceTree = "<group>"; };
+		257EB3E51B32114500BEC237 /* Lessons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Lessons; path = ../../../Lessons; sourceTree = "<group>"; };
+		259969F11B320F5200D49040 /* facebookPaper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebookPaper.png; sourceTree = SOURCE_ROOT; };
+		259969F31B320F5800D49040 /* Grass-Jelly-Milk-Tea.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Grass-Jelly-Milk-Tea.png"; sourceTree = SOURCE_ROOT; };
+		25A9356B1B3201B4002D13B1 /* Kate.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Kate.jpg; path = "../../../../Classwork/Lesson 01/BioApp/Kate.jpg"; sourceTree = "<group>"; };
+		25B485021B3210EB00E90CBF /* mobileGoals.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = mobileGoals.storyboard; path = ../../../../../../.Trash/mobileGoals.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +69,11 @@
 		2515533A1B2CD65D0088FD04 = {
 			isa = PBXGroup;
 			children = (
+				257EB3E51B32114500BEC237 /* Lessons */,
 				251553451B2CD65D0088FD04 /* MobileGoals */,
 				2515535B1B2CD65D0088FD04 /* MobileGoalsTests */,
 				251553441B2CD65D0088FD04 /* Products */,
+				25B485021B3210EB00E90CBF /* mobileGoals.storyboard */,
 			);
 			sourceTree = "<group>";
 		};
@@ -80,6 +92,9 @@
 				251553481B2CD65D0088FD04 /* AppDelegate.swift */,
 				2515534A1B2CD65D0088FD04 /* ViewController.swift */,
 				2515534C1B2CD65D0088FD04 /* Main.storyboard */,
+				259969F31B320F5800D49040 /* Grass-Jelly-Milk-Tea.png */,
+				259969F11B320F5200D49040 /* facebookPaper.png */,
+				25A9356B1B3201B4002D13B1 /* Kate.jpg */,
 				2515534F1B2CD65D0088FD04 /* Images.xcassets */,
 				251553511B2CD65D0088FD04 /* LaunchScreen.xib */,
 				251553461B2CD65D0088FD04 /* Supporting Files */,
@@ -192,9 +207,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25A9356C1B3201B4002D13B1 /* Kate.jpg in Resources */,
+				259969F41B320F5800D49040 /* Grass-Jelly-Milk-Tea.png in Resources */,
 				2515534E1B2CD65D0088FD04 /* Main.storyboard in Resources */,
+				257EB3E61B32114500BEC237 /* Lessons in Resources */,
+				25B485031B3210EB00E90CBF /* mobileGoals.storyboard in Resources */,
 				251553531B2CD65D0088FD04 /* LaunchScreen.xib in Resources */,
 				251553501B2CD65D0088FD04 /* Images.xcassets in Resources */,
+				259969F21B320F5200D49040 /* facebookPaper.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +429,7 @@
 				251553641B2CD65D0088FD04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		251553651B2CD65D0088FD04 /* Build configuration list for PBXNativeTarget "MobileGoalsTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +438,7 @@
 				251553671B2CD65D0088FD04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
