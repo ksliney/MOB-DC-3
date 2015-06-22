@@ -2,7 +2,11 @@
 //  Factbook.swift
 //  Lesson 5 Code Along
 //
+<<<<<<< HEAD
 //  Created by FRANMAR on 6/17/15.
+=======
+//  Created by LOANER on 6/17/15.
+>>>>>>> 725e660b4e3d88b1821f2a0c179f347fb19499c5
 //  Copyright (c) 2015 Thomas Degry. All rights reserved.
 //
 

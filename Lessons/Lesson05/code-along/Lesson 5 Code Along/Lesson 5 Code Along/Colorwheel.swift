@@ -2,6 +2,7 @@
 //  Colorwheel.swift
 //  Lesson 5 Code Along
 //
+<<<<<<< HEAD
 //  Created by FRANMAR on 6/17/15.
 //  Copyright (c) 2015 Thomas Degry. All rights reserved.
 //
@@ -10,6 +11,13 @@
 
 import UIKit
 import Foundation
+=======
+//  Created by LOANER on 6/17/15.
+//  Copyright (c) 2015 Thomas Degry. All rights reserved.
+//
+
+import UIKit
+>>>>>>> 725e660b4e3d88b1821f2a0c179f347fb19499c5
 
 struct Colorwheel {
     let colorsArray = [
@@ -21,10 +29,18 @@ struct Colorwheel {
         UIColor(red: 105/255.0, green: 94/255.0, blue: 133/255.0, alpha: 1.0), //purple color
         UIColor(red: 85/255.0, green: 176/255.0, blue: 112/255.0, alpha: 1.0), //green color
     ]
+<<<<<<< HEAD
+=======
+    
+>>>>>>> 725e660b4e3d88b1821f2a0c179f347fb19499c5
     func randomColor() -> UIColor {
         var arrayCount = UInt32(colorsArray.count)
         var randomNumber = Int(arc4random_uniform(arrayCount))
         
         return colorsArray[randomNumber]
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 725e660b4e3d88b1821f2a0c179f347fb19499c5

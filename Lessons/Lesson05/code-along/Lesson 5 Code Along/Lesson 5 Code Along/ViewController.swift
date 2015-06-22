@@ -11,6 +11,13 @@ import UIKit
 class ViewController: UIViewController {
     @IBOutlet weak var factLabel: UILabel!
     @IBOutlet weak var generateButton: UIButton!
+<<<<<<< HEAD
+=======
+    
+    var numberOfTimes = 0
+    var myFactbook = Factbook()
+    var myColorwheel = Colorwheel()
+>>>>>>> 725e660b4e3d88b1821f2a0c179f347fb19499c5
     
     var numberOfTimes = 0
     var myFactbook = Factbook()
@@ -27,9 +34,15 @@ class ViewController: UIViewController {
     }
 
     @IBAction func generateFact(sender: UIButton) {
+<<<<<<< HEAD
         println("Foo Foo")
 //        ++numberOfTimes
 //        factLabel.text = "Hit \(numberOfTimes) times"
+=======
+//        ++numberOfTimes
+//        factLabel.text = "Hit \(numberOfTimes) times"
+        
+>>>>>>> 725e660b4e3d88b1821f2a0c179f347fb19499c5
         let randomFact = myFactbook.randomFact()
         factLabel.text = randomFact
         
@@ -37,9 +50,13 @@ class ViewController: UIViewController {
         view.backgroundColor = randomColor
         
         generateButton.setTitleColor(randomColor, forState: UIControlState.Normal)
+<<<<<<< HEAD
         
     }
     
+=======
+    }
+>>>>>>> 725e660b4e3d88b1821f2a0c179f347fb19499c5
 }
 
 //UIButton inherits from UIview, so they both have background colors
