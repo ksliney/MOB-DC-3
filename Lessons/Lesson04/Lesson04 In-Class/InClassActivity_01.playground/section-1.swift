@@ -23,8 +23,10 @@ Example:
         knockknock()
     }
 Of course this example doesn't make any sense but just to show how that would work.
-
-
+*/ func knockknock()  {
+    println()
+}
+/*
 Functions can also accept parameters, from one to a lot of them, try to limit them though
 To add a parameter to a function we first choose a name for that parameter followed by it's type
 parameterName:parameterType
@@ -60,6 +62,14 @@ Final note: don't be afraid to have long function names, they'll help you in big
 
 
 // Create a function knockknock that just prints the line "Who's there?"
+
+func knockknock()  {
+    println("Whos there?")
+}
+
+
+
+
 // This function has no parameters nor a return value
 
 
@@ -88,6 +98,11 @@ let age = currentYear - yearOfBirth
 */
 // Return the age at the end of the function
 
+func calculateAge(year0fBirth: -> Int {
+    let currentDate = NSDate()
+    let current
+}
+
 
 // Create a function tellNameAndAge that has two parameters
 // Parameter one is the name (String), parameter two is the yearOfBirth(Int)
@@ -96,6 +111,7 @@ let age = currentYear - yearOfBirth
 
 
 // Call knock knock
+knockknock()
 
 // Call knockMultipleTimes
 

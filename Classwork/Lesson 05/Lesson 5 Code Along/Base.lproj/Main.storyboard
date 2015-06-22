@@ -19,7 +19,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Did you know?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MVm-PV-EEU">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="16" y="55" width="159" height="21"/>
@@ -29,7 +29,7 @@
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <string key="text">The ant can lift 50 times its own weight, can pull 30 times its own weight and always falls over on its right side when intoxicated.</string>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="16" y="94" width="257" height="101"/>
@@ -44,25 +44,6 @@
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="16" y="303" width="257" height="53"/>
                                 </variation>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="73" y="303" width="200" height="53"/>
-                                </variation>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yl9-a8-aTT">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Give me a fact">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="303" width="257" height="53"/>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="109" y="309" width="129" height="40"/>
-                                </variation>
-                                <connections>
-                                    <action selector="generateFact:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1bB-Bc-Qnk"/>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -71,7 +52,6 @@
                                 <exclude reference="MVm-PV-EEU"/>
                                 <exclude reference="6P9-Ns-qWf"/>
                                 <exclude reference="lDW-G1-LLm"/>
-                                <exclude reference="yl9-a8-aTT"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -81,16 +61,7 @@
                                 <include reference="lDW-G1-LLm"/>
                             </mask>
                         </variation>
-                        <variation key="heightClass=regular-widthClass=compact">
-                            <mask key="subviews">
-                                <include reference="yl9-a8-aTT"/>
-                            </mask>
-                        </variation>
                     </view>
-                    <connections>
-                        <outlet property="factLabel" destination="6P9-Ns-qWf" id="PxD-AK-nzM"/>
-                        <outlet property="generateButton" destination="yl9-a8-aTT" id="DvS-AK-cdN"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
