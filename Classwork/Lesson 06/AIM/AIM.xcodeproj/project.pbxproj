@@ -13,6 +13,7 @@
 		25ACBAC31B38D4E900844413 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25ACBAC21B38D4E900844413 /* Images.xcassets */; };
 		25ACBAC61B38D4E900844413 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25ACBAC41B38D4E900844413 /* LaunchScreen.xib */; };
 		25ACBAD21B38D4E900844413 /* AIMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25ACBAD11B38D4E900844413 /* AIMTests.swift */; };
+		25ACBADC1B38D5D500844413 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 25ACBADB1B38D5D500844413 /* logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		25ACBACB1B38D4E900844413 /* AIMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AIMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		25ACBAD01B38D4E900844413 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		25ACBAD11B38D4E900844413 /* AIMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIMTests.swift; sourceTree = "<group>"; };
+		25ACBADB1B38D5D500844413 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		25ACBAB81B38D4E900844413 /* AIM */ = {
 			isa = PBXGroup;
 			children = (
+				25ACBADB1B38D5D500844413 /* logo.png */,
 				25ACBABB1B38D4E900844413 /* AppDelegate.swift */,
 				25ACBABD1B38D4E900844413 /* ViewController.swift */,
 				25ACBABF1B38D4E900844413 /* Main.storyboard */,
@@ -192,6 +195,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25ACBADC1B38D5D500844413 /* logo.png in Resources */,
 				25ACBAC11B38D4E900844413 /* Main.storyboard in Resources */,
 				25ACBAC61B38D4E900844413 /* LaunchScreen.xib in Resources */,
 				25ACBAC31B38D4E900844413 /* Images.xcassets in Resources */,
