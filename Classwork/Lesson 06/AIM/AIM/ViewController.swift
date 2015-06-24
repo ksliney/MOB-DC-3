@@ -61,8 +61,22 @@ class ViewController: UIViewController
         clearButton.setTitle("Clear", forState: UIControlState.Normal)
         submitButton.setTitle("Submit", forState: UIControlState.Normal)
     }
+    @IBAction func submitAction(sender: AnyObject) {
+    }
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+       println("prepare for segue")
+        if segue.identifier == "showProfile" {
+            let destinationVC = segue.destinationViewController as! ProfileViewController
+            destinationVC.age = ageField.text
+            destinationVC.name = nameField.text
+            destinationVC.location = locationField.text
+            destinationVC.sex = sexField.text
+        }
+    
+    }
+    
 
-    override func didReceiveMemoryWarning() {
+     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
