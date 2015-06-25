@@ -62,6 +62,9 @@
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="97" y="463" width="46" height="30"/>
                                 </variation>
+                                <connections>
+                                    <action selector="clearForm:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="UIU-hz-CSx"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2gO-Nr-SQX">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -124,6 +127,7 @@
                         <viewControllerLayoutGuide type="bottom" id="N6i-Cg-C3Y"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="nbM-hw-sRG">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="User name " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KOM-Gw-9TK">
@@ -132,7 +136,40 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="124" y="213" width="88" height="21"/>
+                                    <rect key="frame" x="145" y="295" width="88" height="21"/>
+                                </variation>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="o9j-20-wKN">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="69" y="145" width="240" height="128"/>
+                                </variation>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Age" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L6U-OG-g8q">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="157" y="339" width="42" height="21"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sex" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bBR-ag-lda">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="157" y="377" width="42" height="21"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Location" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M3O-Sz-BTF">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="151" y="417" width="76" height="21"/>
                                 </variation>
                             </label>
                         </subviews>
@@ -140,16 +177,28 @@
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="KOM-Gw-9TK"/>
+                                <exclude reference="o9j-20-wKN"/>
+                                <exclude reference="L6U-OG-g8q"/>
+                                <exclude reference="bBR-ag-lda"/>
+                                <exclude reference="M3O-Sz-BTF"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
                                 <include reference="KOM-Gw-9TK"/>
+                                <include reference="o9j-20-wKN"/>
+                                <include reference="L6U-OG-g8q"/>
+                                <include reference="bBR-ag-lda"/>
+                                <include reference="M3O-Sz-BTF"/>
                             </mask>
                         </variation>
                     </view>
                     <connections>
+                        <outlet property="ageField" destination="L6U-OG-g8q" id="Ngv-vg-YxN"/>
+                        <outlet property="locationField" destination="M3O-Sz-BTF" id="eQG-y8-jdI"/>
                         <outlet property="nameField" destination="KOM-Gw-9TK" id="FVx-kv-oCs"/>
+                        <outlet property="sexField" destination="bBR-ag-lda" id="Cae-Gy-Ebm"/>
+                        <outlet property="userImage" destination="o9j-20-wKN" id="U2j-MY-IRZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ifC-vc-beq" userLabel="First Responder" sceneMemberID="firstResponder"/>

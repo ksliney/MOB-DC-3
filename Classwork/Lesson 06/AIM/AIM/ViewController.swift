@@ -47,7 +47,7 @@ class ViewController: UIViewController
     func formatTextField(textField: UITextField) {
         textField.keyboardType = (textField == ageField) ? .NumberPad : .ASCIICapable
         textField.textColor = (textField == sexField) ? UIColor.redColor() : UIColor.blueColor()
-        
+        textField.font =  UIFont.systemFontOfSize(18)
     }
     
     func fieldKeyboardType(field: UITextField) -> UIKeyboardType {
@@ -62,6 +62,13 @@ class ViewController: UIViewController
         submitButton.setTitle("Submit", forState: UIControlState.Normal)
     }
     @IBAction func submitAction(sender: AnyObject) {
+    }
+    @IBAction func clearForm(sender: UIButton) {
+        nameField.text = ""
+        ageField.text = ""
+        sexField.text = ""
+        locationField.text = ""
+        
     }
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
        println("prepare for segue")
