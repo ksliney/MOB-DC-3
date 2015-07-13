@@ -5,35 +5,23 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-<<<<<<< HEAD
-	<string>9FF4D6D1-C158-4FE9-A01D-50973BB05CA4</string>
-=======
-	<string>3FD6551F-1715-4A79-8979-7FA05D064178</string>
->>>>>>> 8f10779f103a865bd8558e3998da6263b8448ba7
+	<string>3402F78A-3F85-41C6-8E5E-895DB0188E62</string>
 	<key>IDESourceControlProjectName</key>
-	<string>Lesson10-Delegation</string>
+	<string>Lesson03</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>BFDAA4717EEB9965546778FF65FDEFE74CECE3C5</key>
-<<<<<<< HEAD
-		<string>https://github.com/ksliney/MOB-DC-3.git</string>
-=======
 		<string>github.com:ga-students/MOB-DC-3.git</string>
->>>>>>> 8f10779f103a865bd8558e3998da6263b8448ba7
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Solutions/Lesson10/Lesson10-Delegation.playground</string>
+	<string>Solutions/HW 3 - Lessons 6-7/Code/Lesson03.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>BFDAA4717EEB9965546778FF65FDEFE74CECE3C5</key>
-		<string>../../..</string>
+		<string>../../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-<<<<<<< HEAD
-	<string>https://github.com/ksliney/MOB-DC-3.git</string>
-=======
 	<string>github.com:ga-students/MOB-DC-3.git</string>
->>>>>>> 8f10779f103a865bd8558e3998da6263b8448ba7
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
