@@ -29,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		25967AD91B5DA4F500CD183D /* Calculator.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = Calculator.playground; path = ../../../../Homework/Midterm/Calculator.playground; sourceTree = "<group>"; };
 		5D06C6A719D8D2710082F2DE /* Lesson02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lesson02.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D06C6AB19D8D2710082F2DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D06C6AC19D8D2710082F2DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +106,7 @@
 			children = (
 				5D06C6C219D8D2710082F2DE /* Lesson02Tests.swift */,
 				5D06C6C019D8D2710082F2DE /* Supporting Files */,
+				25967AD91B5DA4F500CD183D /* Calculator.playground */,
 			);
 			path = Lesson02Tests;
 			sourceTree = "<group>";
