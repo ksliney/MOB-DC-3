@@ -13,6 +13,7 @@
 		25967AF01B5DA53100CD183D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25967AEF1B5DA53100CD183D /* Images.xcassets */; };
 		25967AF31B5DA53100CD183D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25967AF11B5DA53100CD183D /* LaunchScreen.xib */; };
 		25967AFF1B5DA53100CD183D /* CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25967AFE1B5DA53100CD183D /* CalculatorTests.swift */; };
+		25967B091B5DCEF200CD183D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25967B081B5DCEF200CD183D /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		25967AF81B5DA53100CD183D /* CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		25967AFD1B5DA53100CD183D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		25967AFE1B5DA53100CD183D /* CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorTests.swift; sourceTree = "<group>"; };
+		25967B081B5DCEF200CD183D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = "../../../../../Spare Homework Copies/Main.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				25967AE81B5DA53100CD183D /* AppDelegate.swift */,
 				25967AEA1B5DA53100CD183D /* ViewController.swift */,
 				25967AEC1B5DA53100CD183D /* Main.storyboard */,
+				25967B081B5DCEF200CD183D /* Main.storyboard */,
 				25967AEF1B5DA53100CD183D /* Images.xcassets */,
 				25967AF11B5DA53100CD183D /* LaunchScreen.xib */,
 				25967AE61B5DA53100CD183D /* Supporting Files */,
@@ -195,6 +198,7 @@
 				25967AEE1B5DA53100CD183D /* Main.storyboard in Resources */,
 				25967AF31B5DA53100CD183D /* LaunchScreen.xib in Resources */,
 				25967AF01B5DA53100CD183D /* Images.xcassets in Resources */,
+				25967B091B5DCEF200CD183D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
