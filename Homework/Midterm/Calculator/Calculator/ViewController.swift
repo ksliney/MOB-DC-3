@@ -1,17 +1,51 @@
 import UIKit
 
 class ViewController: UIViewController {
+   var isTypingNumber = false
+    var firstNumber = 0
+    var secondNumber = 0
+    var operation = ""
+    
 
-    override func viewDidLoad() {
+    @IBOutlet weak var calculatorDisplay: UILabel!
+    @IBAction func numberTapped(sender: AnyObject) {
+        var number = sender.currentTitle
+        
+        if isTypingNumber {
+            calculatorDisplay.text = calculatorDisplay.text! + number!!
+        }
+        else {
+            calculatorDisplay.text = number
+            isTypingNumber = true
+        }
+    }
+    @IBAction func calculationTapped(sender:AnyObject) {
+        isTypingNumber = false
+        firstNumber = calculatorDisplay.text!.toInt()!
+        operation = sender.currentTitle!!
+       
+    }
+    @IBAction func equalsTapped(sender: AnyObject) {
+        isTypingNumber = false
+        var result = 0
+        secondNumber = calculatorDisplay.text!.toInt()!
+        
+        
+        if operation == "+" {
+            result = firstNumber + secondNumber
+        } else if  operation == "-" {
+            result = self.firstNumber - self.secondNumber
+            
+            }
+        calculatorDisplay.text = "\(result)"
+        
+    }
+     override func viewDidLoad() {
         super.viewDidLoad()
     }
-    override func didReceiveMemoryWarning() {
+      override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
-        
-        func buttonTap(theButton: UIButton) {
-            println(theButton.titleLabel!.text)
-        }
     
 }
 
